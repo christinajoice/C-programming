@@ -4,12 +4,11 @@ void main()
 {
  int a,i;
  clrscr();
- printf("enter a number ");
- scanf("%d",&a);
+  scanf("%d",&a);
  i=a%2;
  if(i==0)
- printf("\nthe number is even");
+ printf("\neven");
  else
- printf("\nthe number is odd");
+ printf("\nodd");
  getch();
 }
